@@ -1,0 +1,224 @@
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+   
+   
+   
+   .mainBox{
+        margin-top: 105px;
+        margin-left: 264px;
+        margin-bottom: 692px;
+        margin-right: 264px;
+  
+  }
+  .engross{
+      margin-top: 18px;
+      margin-left: 350px;
+      margin-right: 427px;
+      margin-bottom: 10px;
+      width: 119px;
+      height: 19px;
+      font-size: 24px;
+      color: #EE9644;
+  }
+  .textBox{
+      margin-top: 10px;
+      width: 800px;   
+      height: 40px;
+      border-radius: 10px;
+      outline: none;
+      font-size: 18px;
+  }
+  .thirtymin{
+      margin-top: 12px;
+      margin-left: 215px;
+      width: 80px;
+      height: 25px;
+      border-radius: 0 10px;
+      background-color: #EE9644;
+      border:1px solid white;
+      font-weight: bold;
+      outline: none;
+      
+  }
+  .thirtymin:hover{
+      background-color: #EE9644;
+      color:white;
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+      transition:  all 0.5s ease;
+  }
+  .ffivemin{
+      margin-top: 12px;
+      margin-left: 10px;
+      width: 80px;
+      height: 25px;
+      border-radius: 0 10px;
+      background-color: #EE9644;
+      border:1px solid white;
+      font-weight: bold;
+      outline: none;
+  }
+  .ffivemin:hover{
+      background-color: #EE9644;
+      color:white;
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+      transition:  all 0.5s ease;
+  }
+  .onehr{
+      margin-top: 12px;
+      margin-left: 10px;
+      width: 80px;
+      height: 25px;
+      border-radius: 0 10px;
+      background-color: #EE9644;
+      border:1px solid white;
+      font-weight: bold;
+      outline: none;
+  }
+  .onehr:hover{
+      background-color: #EE9644;
+      color:white;
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+      transition:  all 0.5s ease;
+  }
+  .custom{
+      margin-top: 12px;
+      margin-left: 10px;
+      width: 80px;
+      height: 25px;
+      border-radius: 0 10px;
+      background-color: #EE9644;
+      border:1px solid white;
+      font-weight: bold;
+      outline: none;
+      
+  }
+  .custom:hover{
+      background-color: #EE9644;
+      color:white;
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+      transition:  all 0.5s ease;
+  }
+  .Save{
+      margin-top: 25px;
+      margin-left: 290px;
+      width: 100px;
+      height: 40px;
+      border-radius: 20px;
+      background-color: #EE9644;
+      border:1px solid white;
+      font-weight: bold;
+      outline: none;
+  }
+  .Save:hover{
+      background-color: #EE9644;
+      color:white;
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+      transition:  all 0.5s ease;
+  }
+  .Cancel{  
+      margin-top: 25px;
+      margin-left: 10px;
+      width: 100px;
+      height: 40px;
+      border-radius: 20px;
+      background-color: #EE9644;
+      border:1px solid white;
+      font-weight: bold;
+      outline: none;
+  }
+  .Cancel:hover{
+      background-color: #EE9644;
+      color:white;
+      -webkit-transform: scale(1.2);
+      -ms-transform: scale(1.2);
+      transform: scale(1.2);
+      transition:  all 0.5s ease;
+  }
+  
+   .clk-thirty-min{
+       background-color: greenyellow;
+       color: white;
+   }
+
+   .clk-frtyfive-min{
+       background: greenyellow;
+       color: white;
+   }
+   
+   .clk-one-hr{
+    background: greenyellow;
+    color: white;
+   }
+   
+   #mask{
+       position:absolute;
+       background-color: rgba(0,0,0,.25);
+       top: 0;
+       right: 0;
+       left: 0;
+       bottom: 0;
+       z-index: 1;
+  
+   }
+   .hidden{
+       display: none;
+   }
+
+   #dialog{
+       position: absolute;
+       top: 20%;
+       left: 25%;
+       border: 10px double #222;
+       background-color: aliceblue;
+       padding: 10px;
+       width: 50%;
+       height: 125px;
+       text-align: center;
+       z-index: 2;
+       
+   }
+ 
+    
+   .time{
+       display: flex;
+       flex-direction: row;
+       margin-top: 10px;
+       margin-bottom: 10px;
+   }
+   .custom-dialog{
+       position: absolute;
+       top: 20%;
+       left: 25%;
+       border: 10px double #222;
+       padding: 10px;
+       width: 50%;
+       height: 200px;
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       justify-content: center;
+       background-color: aliceblue;
+       z-index: 2;
+   }
+   .hr-unit{
+       margin-right: 5px;
+   }
+   .custom-dialog h1{
+       margin-top: 10px;
+   }
+   .hide{
+       display: none;
+   }
